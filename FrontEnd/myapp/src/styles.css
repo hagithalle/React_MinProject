@@ -1,0 +1,59 @@
+.rounded-border {
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 15px;       /* Rounded corners */
+    padding: 20px;             /* Padding inside the component */
+    width: fit-content;        /* Ensures the width fits content */
+  }
+  
+  .buttonStyle{
+    background-Color: #b09c00
+  }
+
+  .otherData {
+    border-radius: 10px;
+    background-color: beige;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px; /* Space between each input field */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container label {
+    margin-bottom: 5px; /* Space between label and input field */
+  }
+  
+  .input-container input {
+    padding: 5px; /* Space inside the input field */
+    border: 1px solid #ccc; /* Border for the input field */
+    border-radius: 4px; /* Rounded corners for the input field */
+    justify-Content: flex-end
+  }
+
+
+  .todo-container {
+      border: 1px solid purple;
+      margin-top: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-bottom: 10px;
+  }
+  
+  .todo-item {
+      margin-bottom: 20px;
+      display: flex;
+      text-align: left;
+     
+  }
+  
+  .todo-label {
+      color: purple;
+      width: 60px; /* Fixed width to ensure consistent spacing */
+      margin-right: 20px; /* Space between label and text */
+  }
